@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+    background: #f4f5f7;
+}
+.error-container {
+    width: 980px;
+    margin: 30px auto 30px;
+    background: #fff;
+    border-radius: 10px;
+}
+.error-panel {
+    overflow: hidden;
+}
+.error-panel .rollback-btn {
+    display: inline-block;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    background: #00a1d6;
+    color: #fff;
+    border-radius: 4px;
+    float: right;
+    font-size: 16px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.h5-container {
+    display: none;
+}
+@media screen and (max-width: 500px) {
+    #MainHeader, .error-container {
+        display: none;
+    }
+
+    .h5-container {
+        display: block;
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .h5__img {
+        display: block;
+        width: 300px;
+    }
+
+    .h5__desc {
+        color: #a0a0a0;
+        text-align: center;
+    }
+}

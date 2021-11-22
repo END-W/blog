@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/blog/static/images/favicon.ico" type="image/x-icon"/>
+    <title>出错啦! - waiend.top</title>
+    <link rel="stylesheet" href="/blog/static/css/error/error.css">
+</head>
+<body>
+    <div id="MainHeader" style="height: 56px; background-color: #fff; display: none"></div>
+    <div class="error-container">
+        <div class="error-panel server-error">
+            <img src="/blog/static/images/error/very_sorry.png" alt="">
+            <div style="text-align: center; padding: 0 0 40px 0;">
+                <a class="rollback-btn" style="padding: 0 20px; float: none;">返回上一页</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="h5-container">
+        <img class="h5__img" src="/blog/static/images/error/error_01.png" alt="parse failed">
+        <div class="h5__desc">
+            <span>Σ(oﾟдﾟoﾉ) 无法找到该页面~</span>
+        </div>
+    </div>
+    <script>
+        document.getElementsByClassName('rollback-btn')[0].onclick = function() {
+            window.history.go(-1);
+        }
+    </script>
+</body>
+</html>
