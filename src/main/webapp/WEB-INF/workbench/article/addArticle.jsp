@@ -148,9 +148,6 @@
                                    autocomplete="off">
                         </div>
                         <div class="form-group">
-                            <textarea id="digest" class="form-control" rows="3" placeholder="在此处输入文章摘要"></textarea>
-                        </div>
-                        <div class="form-group">
                             <a href="javascript:;" class="a-upload">
                                 <input type="file" name="img" id="img"/>上传文章LOGO
                             </a>

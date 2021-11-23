@@ -12,7 +12,6 @@ public class Article {
     @Id
     private String aid; // 主键
     private String title; // 标题
-    private String digest; // 文章摘要
     private String content; // 具体内容
     private String cid; // 文章所属标签(栏目)
     private String visit_count; // 访问量
@@ -40,14 +39,6 @@ public class Article {
 
     public void setTitle(String title) {
         this.title = title;
-    }
-
-    public String getDigest() {
-        return digest;
-    }
-
-    public void setDigest(String digest) {
-        this.digest = digest;
     }
 
     public String getContent() {

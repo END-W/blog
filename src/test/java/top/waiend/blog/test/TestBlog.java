@@ -20,7 +20,6 @@ public class TestBlog {
     public void test01() {
 
         Article article = new Article();
-        article.setDigest("文章摘要");
         article.setContent("文章内容");
         articleMapper.insertSelective(article);
     }

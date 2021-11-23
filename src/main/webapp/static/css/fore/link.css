@@ -9,7 +9,7 @@
 .container-inner article{padding:10px}
 .container-inner article section{padding:20px;background:#fff;border:1px;border-radius:10px;font-size:1rem}
 .container-inner article section code{background:rgba(27,31,35,.05);padding: .2rem .4rem;color:#bd4147;border-radius:4px;font-family: Menlo,Monaco,Consolas,Courier New,monospace;}
-.container-inner article section p{margin:1.5rem 0;padding-left:18px;font-family:Raleway,Segoe UI,Lucida Grande,Helvetica,Arial,Microsoft YaHei;line-height:1.75rem}
+.container-inner article section p{margin:1.5rem 0;padding-left:18px;font-family:Raleway,Segoe UI,Lucida Grande,Helvetica,Arial,Microsoft YaHei;line-height:1.75rem;word-break:break-word}
 .container-inner article section ul,.container-inner article section span{padding-left:18px;}
 .container-inner article section ul li{line-height:2rem}
 .container-inner article section a{color:#0366d6}

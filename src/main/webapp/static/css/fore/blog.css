@@ -13,7 +13,7 @@
 .article-item .time{font-family:SourceCodeProRegular,Menlo,Monaco,Consolas,"Courier New",monospace,'Helvetica Neue',Arial,sans-serif;position:absolute;right:10px;top:10px;background-color:#fff;padding:0 20px 5px 20px;line-height:32px}
 .article-item .time .day{display:block;text-align:center;font-weight:700;font-size:40px;color:#6bc30d;position:relative;top:2px}
 .article-item .time .month,.article-item .time .year{color:#989997}
-.article-item .content{margin:20px 0 0 0;line-height:28px;position:relative;/*overflow:hidden;*/min-height:200px}
+.article-item .content{margin:20px 0 0 0;line-height:28px;position:relative;overflow:hidden;height:200px}
 .article-item .artiledetail img:hover{box-shadow: 0 0 5px #333;}
 .article-item .content a{color:#3e8bc7;margin:0 2px}
 .article-item .content .cover{display:block;width:300px;height:180px;border:1px solid #e8e9e7;overflow:hidden;float:left;margin-right:20px}
@@ -65,10 +65,9 @@
 .article-item .content .copyright .f-toe{overflow:hidden;word-wrap:normal!important;white-space:nowrap;text-overflow:ellipsis}
 .article-item .content .copyright p{margin:0}
 .article-item .content .copyright p:after{content:".";display:block;height:0;clear:both;visibility:hidden}
-.article-item .content a{color:#3e8bc7;margin:0 2px}
 .article-item .content .copyright a{text-decoration:none}
 .article-item .content .b-relation li:before{content:"◈";margin-right:5px;color:#787977}
-.share{margin:30px 0 0 0;text-align:center;font-size:30px}
+/*.share{margin:30px 0 0 0;text-align:center;font-size:30px}
 .share ul{overflow:hidden;margin:0 auto;display:table}
 .share ul::after{clear:both}
 .share ul li{float:left;width:50px;height:50px;box-sizing:border-box;border:2px solid #e8e9e7;border-radius:50%;margin:0 10px;opacity:.75;transition:opacity .36s linear;cursor:pointer;position:relative;text-rendering:auto}
@@ -84,7 +83,7 @@
 .share ul li .s-weinxi{background-position:0 0}
 .share ul li .s-sina{background-position:0 -64px}
 .share ul li .s-qzone{background-position:0 -32px}
-.share ul li i{color:#14afff}
+.share ul li i{color:#14afff}*/
 .blog-comment{position:relative;margin-bottom:10px}
 .blog-comment img{width:22px;height:22px}
 .blog-comment li:first-child{border-top:1px dotted #bbb}
@@ -110,11 +109,11 @@
 .category-toggle{position:fixed;right:0;top:40%;width:15px;background:#009688;color:#fff;font-size:16px;padding:30px 0;z-index:9999}
 .categoryIn{-moz-animation:categoryIn .5s;-o-animation:categoryIn .5s;-webkit-animation:categoryIn .5s;animation:categoryIn .5s}
 .categoryOut{-moz-animation:categoryOut .5s;-o-animation:categoryOut .5s;-webkit-animation:categoryOut .5s;animation:categoryOut .5s}
-.article-category{position:fixed;top:60px;right:0;bottom:0;background:#393D49;color:#eee;width:160px;font-size:11px;padding:10px;margin:0;display:none;z-index:9}
+.article-category{position:fixed;top:50px;right:0;bottom:0;background:#2C2C32;color:#eee;width:160px;font-size:11px;padding:10px;margin:0;display:none;z-index:9}
 .article-category>.article-category-title{text-align:center;border-bottom:1px solid #009688;font-size:15px;font-weight:500;padding:0 0 5px 0;margin-bottom:5px}
 .article-category>a{display:block;color:#eee;padding:5px 1%;margin:4px 0;background:#009688;width:98%;text-align:center;line-height:19px;word-break:keep-all;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;float:left}
 .article-category>a:hover{background:#5FB878}
-.blog-mask{position:fixed;left:0;right:0;top:60px;bottom:0;background:rgba(0,0,0,.7);z-index:8}
+.blog-mask{position:fixed;left:0;right:0;top:50px;bottom:0;background:rgba(0,0,0,.7);z-index:8}
 .maskIn{-moz-animation:maskFadeIn .5s;-o-animation:maskFadeIn .5s;-webkit-animation:maskFadeIn .5s;animation:maskFadeIn .5s}
 .maskOut{-moz-animation:maskFadeOut .5s;-o-animation:maskFadeOut .5s;-webkit-animation:maskFadeOut .5s;animation:maskFadeOut .5s}
 @-webkit-keyframes bounceInDown{0%,60%,75%,90%,to{transition-timing-function:cubic-bezier(.215,.61,.355,1)}

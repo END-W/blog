@@ -137,9 +137,6 @@
                             <label class="sr-only">标题</label>
                             <input type="text" id="title" class="form-control" placeholder="在此处输入标题" required autofocus autocomplete="off">
                         </div>
-                        <div class="form-group">
-                            <textarea id="digest" class="form-control" rows="3" placeholder="在此处输入文章摘要"></textarea>
-                        </div>
                         <div>
                             <a href="javascript:;" class="a-upload">
                                 <input type="file" name="img" id="img" />上传文章LOGO
@@ -303,9 +300,6 @@
         // 页面其他内容设置
         // 标题
         $('#title').val(data.title);
-
-        // 摘要
-        $('#digest').val(data.digest);
 
         // 把当前文章主键设置隐藏域中
         $('#aid').val(data.aid);

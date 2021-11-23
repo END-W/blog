@@ -66,7 +66,6 @@ function publish() {
         'cid': $('#categories').val(),
         'tagNames': tagNames,
         'title': $('#title').val(),
-        'digest': $('#digest').val(),
         'logo': $('#logo').val(),
         'content': $('#content').val(),
         'isOpen': $('input[type=radio]:checked').val()
